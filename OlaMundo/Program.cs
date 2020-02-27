@@ -6,7 +6,9 @@ namespace OlaMundo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Nome: ");
+            string c = Console.ReadLine();
+            Console.WriteLine($"Hello {c}!", c);
         }
     }
 }
