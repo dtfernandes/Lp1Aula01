@@ -13,7 +13,6 @@ namespace OlaMundo
         /// <param name="args">Command line arguments</param>
         static void Main(string[] args)
         {
-            int lk = 8;
             Console.WriteLine("Hello World!");
             Console.WriteLine("Bye World!");
 
