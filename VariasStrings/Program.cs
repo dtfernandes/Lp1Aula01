@@ -7,6 +7,9 @@ namespace VariasStrings
         static void Main(string[] args)
         {
 
+            double xx = 0.12345;
+            int ii = 18;
+
             string cena1 = @"""""""""""""""""""""";
             string cenap = "abcdefghijk";
             string cena2 = $"o Marco é\t{cena1}\ttriste";
@@ -30,6 +33,15 @@ namespace VariasStrings
             Console.WriteLine(cena1);
             Console.WriteLine(cena2);
             Console.WriteLine(cena3);
+
+
+
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p1}");
+
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
+
 
         }
     }
