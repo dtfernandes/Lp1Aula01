@@ -9,7 +9,8 @@ namespace OlaMundo
             Console.WriteLine("Nome: ");
             string c = Console.ReadLine();
             Console.WriteLine($"Hello {c}!", c);
-            Console.WriteLine("Bye World");
+
+            Console.WriteLine($"Bye {c}", c);
         }
     }
 }
